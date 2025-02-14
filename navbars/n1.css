@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(women.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 70%; */
+    background-size:cover;
+}
+
+header{
+    background-color: rgb(253, 162, 116);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    padding: 15px 19px;
+}
+
+h1{
+    color: rgb(119, 49, 21);
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box{
+    padding-left: 730px;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+
+ul{
+    list-style-type: none;
+    display:inline-flex;
+    margin-right: 100px;
+
+}
+
+li a {
+    color: aliceblue;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:rgb(156, 61, 30)
+}
+
+img{
+    width: 40px;
+    height:40px;
+    margin-top: 15px;
+    /* padding-right: 2px; */
+    margin-right: 60px;
+    /* margin-right: 10px ; */
+}
+
+.box_a{
+    text-align: center;
+    margin-top: 180px;
+}
+
+.box_a h1{
+    color: rgb(70, 39, 28);
+    text-transform: uppercase;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    color: aliceblue;
+    background-color:transparent;
+    border-color: rgb(49, 14, 3);
+    padding: 15px 80px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: rgb(241, 128, 94);
+}
+
+button:hover{
+    background-color: brown;
+}
+
+.box_b{
+    background-color: aliceblue;
+}

@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('lptop.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    text-align: center;
+    color: white;
+}
+.login-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.input-group {
+    margin: 10px 0;
+    position: relative;
+}
+.input-group input {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.login-btn {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.social-icons a {
+    margin: 5px;
+    padding: 10px;
+    background: white;
+    display: inline-block;
+    border-radius: 50%;
+    text-decoration: none;
+}

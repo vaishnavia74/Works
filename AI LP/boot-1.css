@@ -1,0 +1,33 @@
+body {
+    background-color: #A3B1B3;
+}
+.hero-section {
+    background-color: #1A2B44;
+    color: white;
+    padding: 80px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar a.active {
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.btn-custom {
+    border: 2px solid white;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.btn-custom:hover {
+    background-color: white;
+    color: #1A2B44;
+}

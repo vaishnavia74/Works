@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.btn-one{
+    color:rgb(243, 81, 36);
+    background-color: rgb(240, 156, 123);
+    border-color: rgb(240, 156, 123);
+    padding: 5px 5px;
+    padding-inline: 20px;
+    border-radius: 10%;
+
+}
+
+.btn-two{
+    color:rgb(24, 118, 0);
+    background-color: rgb(123, 240, 123);
+    border-color:  rgb(123, 240, 123);
+    padding: 5px 5px;
+    padding-inline: 20px;
+    border-radius: 10%;
+    margin-left: 10px;
+}
