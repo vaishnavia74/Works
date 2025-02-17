@@ -1,0 +1,47 @@
+Boostrap-5
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+https://bootstrapshuffle.com/classes/
+-------------------------------------------
+margins and padding:-
+m-margin
+p-padding
+
+we use a ll the tags in class
+ex: <h1 class="display-4 fw-bolder">Shop in style</h1>
+
+decrease to increase (1-5)
+t-top
+b-bottom
+s-left
+e-right
+
+mw- max-width
+
+more the 5 size we use:
+x-horizontal padding  (  --  )
+y-vertical padding (  |  )
+
+px-padding left and right (both side)
+
+in the toggle navigation , beside fs set text-center, text-start=leftside, text-end=rightside
+
+goto backgroung color choose .bg-primary
+-so to give color to the text we write as = text-primary in span
+
+root element font-size
+rem (style="top: 0.5rem; right: 0.5rem)
+font size
+fs-1 to fs-6 to increase font size 
+
+font width
+fw-1 -thin line, fw-bold/bolder
+
+size of the word increase or decrease 
+display-1 to 4  
+
+col-sm
+small devices
+md-medium devices
+lg-large screen
+col-12 for extra small devices
+
