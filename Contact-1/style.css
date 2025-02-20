@@ -4,6 +4,37 @@
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family: charm;
+    src: url("..\fonts\Charm\Charm-Bold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: Delius Swash Caps;
+    src: url("..\fonts\Delius_Swash_Caps\DeliusSwashCaps-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: MoveOnlyRegular;
+    src: url("..\Fonts\move_only\MoveOnlyRegular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: nita;
+    src: url("..\Fonts\nita\Nita.ttf");
+}
+.box h2{
+    font-family:nita;
+}
+
+.box_c p{
+    font-family: Delius Swash Caps;
+}
+
+.box_c span{
+    font-family: charm;
+}
+
 .wrapper{
     border: 6px solid rgb(201, 194, 194);
     border-style:  dashed;
