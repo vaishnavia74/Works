@@ -5,6 +5,7 @@ body{
     background: url(lptop.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    /* background: transparent; */
 }
 
 .wrapper{
@@ -13,6 +14,7 @@ body{
     align-items: center;
     border: 1px solid white;
     backdrop-filter: blur(5px);
+    
 
 }
 
