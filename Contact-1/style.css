@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Charm:wght@400;700&family=Delius+Swash+Caps&display=swap');
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
 }
-
+/* Google Fonts  */
 @font-face{
     font-family: charm;
     src: url("..\fonts\Charm\Charm-Bold.ttf") format("truetype");
@@ -14,17 +15,14 @@
     src: url("..\fonts\Delius_Swash_Caps\DeliusSwashCaps-Regular.ttf") format("truetype");
 }
 
+/* Other web custom fonts  */
 @font-face{
-    font-family: MoveOnlyRegular;
-    src: url("..\Fonts\move_only\MoveOnlyRegular.ttf") format("truetype");
+    font-family: "personal";
+    src: url("Fonts/CassandraPersonalUseRegular-3BjG.ttf") format("truetype");
 }
 
-@font-face{
-    font-family: nita;
-    src: url("..\Fonts\nita\Nita.ttf");
-}
 .box h2{
-    font-family:nita;
+    font-family: personal;
 }
 
 .box_c p{
