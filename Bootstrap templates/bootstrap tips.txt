@@ -14,7 +14,7 @@ t-top
 b-bottom
 s-left (LTR): L to R
 e-right(RTL): R to L
-Instead of pr and pl we use ps and pe in bootstrape.
+Instead of pr and pl we use ps and pe in bootstrap.
 mostly we use s and e for better support.
 
 mw- max-width
