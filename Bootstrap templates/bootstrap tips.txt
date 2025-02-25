@@ -9,7 +9,8 @@ p-padding
 we use a ll the tags in class
 ex: <h1 class="display-4 fw-bolder">Shop in style</h1>
 
-decrease to increase (1-5)
+p-auto/0 which takes all direction default length
+decrease to increase (1-5) 
 t-top
 b-bottom
 s-left (LTR): L to R
@@ -42,8 +43,8 @@ size of the word increase or decrease
 display-1 to 4  
 
 col-sm
-small devices
-md-medium devices
+sm-small screen/devices
+md-medium screen/devices
 lg-large screen
 col-12 for extra small devices
 
