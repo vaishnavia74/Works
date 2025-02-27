@@ -17,9 +17,13 @@ body p{
   display: flex;
   justify-content: center;
   text-align: center;
+  border: 1px solid white;
+  padding: 5px;
+  margin: 2px 45%;
 }
 
 .pin{
+  border: 1px solid white;
   margin-top:5px;
 }
 .pin h1{
@@ -29,15 +33,22 @@ body p{
 }
 
 .pin_1{
-  border: solid white;
+  /* border: 1px solid white; */
   border-radius: 10%;
-  margin-top:5px;
+  margin-top:13px;
   margin-left: 5px;
   background-color: rgb(255, 255, 255);
 }
 
 .pin_1 h1{
-  color: rgb(42, 144, 218);;
+  border: 1px solid white;
+  border-radius: 10%;
+  /* margin-top:13px; */
+  /* margin-left: 5px; */
+  color: rgb(42, 144, 218);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  
 }
 
 .wrapper img{
