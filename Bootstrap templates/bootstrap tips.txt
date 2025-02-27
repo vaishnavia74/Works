@@ -9,11 +9,14 @@ p-padding
 we use a ll the tags in class
 ex: <h1 class="display-4 fw-bolder">Shop in style</h1>
 
-decrease to increase (1-5)
+p-auto/0 which takes all direction default length
+decrease to increase (1-5) 
 t-top
 b-bottom
-s-left
-e-right
+s-left (LTR): L to R
+e-right(RTL): R to L
+Instead of pr and pl we use ps and pe in bootstrap.
+mostly we use s and e for better support.
 
 mw- max-width
 
@@ -40,8 +43,8 @@ size of the word increase or decrease
 display-1 to 4  
 
 col-sm
-small devices
-md-medium devices
+sm-small screen/devices
+md-medium screen/devices
 lg-large screen
 col-12 for extra small devices
 
