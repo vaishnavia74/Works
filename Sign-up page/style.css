@@ -6,7 +6,7 @@
 
 body{
   text-align: center;
-  background-color: rgb(42, 144, 218);
+  background-color: rgb(8, 120, 148);
 }
 
 body p{
@@ -17,13 +17,13 @@ body p{
   display: flex;
   justify-content: center;
   text-align: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding: 5px;
   margin: 2px 45%;
 }
 
 .pin{
-  border: 1px solid white;
+  /* border: 1px solid white */
   margin-top:5px;
 }
 .pin h1{
@@ -33,29 +33,150 @@ body p{
 }
 
 .pin_1{
-  /* border: 1px solid white; */
-  border-radius: 10%;
-  margin-top:13px;
+  margin-top: 20px;
   margin-left: 5px;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
 }
 
 .pin_1 h1{
-  border: 1px solid white;
-  border-radius: 10%;
-  /* margin-top:13px; */
-  /* margin-left: 5px; */
-  color: rgb(42, 144, 218);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
+  /* border: 1px solid white; */
+  border-radius: 12%;
+  font-size: 25px;
+  padding: 0  2px ;
+  color: rgb(8, 120, 148);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
 
+p{
+  /* padding-top: 2px; */
+  font-size: 28px;
+  color: rgb(254, 255, 255);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+}
+
+.container{
+  /* border: 1px solid rgb(4, 211, 55); */
+  /* background-color: rgb(225, 228, 231); */
+  margin: 20px 36%;
+  text-align: left;
+}
+
+.jar{
+  background-color: rgb(225, 228, 231);
+  padding: 16px 37px;
+}
+/* .jar{
+  border: 1px solid red;
+} */
+
+.jar label{
+  color: rgb(101, 102, 104);
+  font-size: 13px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* padding: 15px 15px; */
+}
+
+.jar input{
+  padding: 6px 73px ;
+  /* margin-top: 20px; */
+  border: 1px solid rgb(201, 199, 199);
+  border-radius: 3px;
+}
+
+.box-2{
+  padding-top: 10px;
+}
+
+.box-3{
+  padding-top: 10px;
+}
+
+.box-4{
+  padding-top: 10px;
+}
+
+.box-5{
+  padding-top: 10px;
+  padding-right: 7px;
+}
+.box-5 p{
+  color: rgb(101, 102, 104);
+  font-size: 12px;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-5 span{
+  color:black;
+}
+
+.box-6{
+  padding-top: 10px;
+}
+.box-6 button{
+  padding: 8px 41.4%;
+  background-color: rgb(10, 111, 158);
+  border: none;
+  font-weight:bold;
+  font-size: 11.9px;
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+}
+
+.box-7 {
+  padding: 2px 5px;
+  display: flex;
+  background-color: rgb(56, 73, 148);
+  border-radius: 3px;
+}
+
+.box-7 img{
+  height: 29px;
+}
+
+.box-7 a{
+  font-size: 16px;
+  padding: 2px 49px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.box-8{
+  margin-top: 8px;
+}
+.box-8 p{
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-8 a{
+  text-decoration: none;
+  color: rgb(11, 108, 173);
+}
+
+.tin p{
+  color: rgb(241, 247, 247);
+  font-size: 15px;
+  text-align: center;
+  /* padding-top: 8px; */
+
+}
+
+.bar{
+  margin-top: 20px;
+  position: relative;
+  border-top: 1px solid rgb(192, 188, 188);
   
 }
 
-.wrapper img{
-  color: rgb(254, 255, 255);
-}
-.container{
-  background-color: rgb(225, 228, 231);
-  /* margin: 10%; */
+.bar p{ 
+  color: gray;
+  font-size: 17px;
   text-align: center;
+  
 }
