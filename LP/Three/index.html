@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
@@ -16,23 +18,26 @@
             <a href="#">Design</a>
             <a href="#">Contact</a>
              
-            <div class="box">
+            <div class="co-box">
                 <div class="b1">
-                    <Label>
-                        <input type="search" name="search" id="search" placeholder="Type to Search">
-                    </Label>
+                    <label>
+                        <input type="search" name="search" placeholder="Type to Search">
+                        <button>Search</button>
+                    </label>
                 </div>
-                <div class="b2">
+
+                <!-- <div class="b2">
                     <label>
                         <input type="button" name="search" value="Search">
                     </label>
                 </div>
-            </div>
+            </div> -->
 
         </nav>
     </header>
 
     <div class="container">
+
         <div class="wrapper-1">
             <div class="box">
                 <h1>Web Design & <span>Development</span> Course</h1>
@@ -41,20 +46,28 @@
             <button>Join us</button>
         </div>
         
-    
-
         <div class="wrapper-2">
             <h2>Login Here</h2>
             <label>
-                <input type="email" name="email" id="email" placeholder="Enter Email Here">
+                <input type="text" name="email" id="email" placeholder="Enter Email Here">
             </label> 
             <label>
-                <input type="email" name="email" id="email" placeholder="Enter Password Here">
+                <input type="password" name="email" id="email" placeholder="Enter Password Here">
             </label> 
+
             <button>Login</button>
-            <p>Don't have an account
-            <a href="#">Sign up</a>here</p>
+            <p>Don't have an account?<br>
+            <a href="#">Sign Up</a> here</p>
             <p>Log in with</p>
+            
+            <!-- icons  -->
+             <div class="icon-bar">
+                <a href="#"><i class='bx bxl-facebook-circle'   ></i></a>
+                <a href="#"><i class='bx bxl-instagram'  ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-google'  ></i></a>
+                <a href="#"><i class='bx bxl-skype'  ></i></a>
+             </div>
         </div>
     </div>
 
