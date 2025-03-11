@@ -1,21 +1,25 @@
-body{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background: url(lptop.jpg) no-repeat;
+body {
+    background-image: url(lptop.jpg);
+    background-repeat: no-repeat;
+    /* width: 99%; */
     background-size: cover;
     background-position: center;
-    /* background: transparent; */
 }
 
-.wrapper{
-    margin: 150px ;
-    padding: 20px 20px;
+.container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border: 1px solid white;
-    backdrop-filter: blur(5px);
-    
+}
 
+.wrapper {
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 10px;
+    backdrop-filter: blur(5px);
+    /* align-items: center; */
 }
 
 .wrapper:hover{
