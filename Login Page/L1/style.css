@@ -23,7 +23,7 @@ body{
     height: 25vh;
     width: 30%;
 } */
- 
+
 .circle-purple{
     position: absolute;
     background-color: rgb(141, 4, 168);
@@ -160,7 +160,7 @@ body{
     background-image: linear-gradient(to right, rgb(202, 99, 14), rgb(224, 28, 38));
 }
 
-.box_5 a{
+.box_5 a{             
     color: white;
     margin-left: 31%;
     font-size: 12px;
