@@ -11,20 +11,64 @@ body{
     justify-content: center;
     align-items: center;
     /* min-height: 97vh; */
-    margin-top: 30px;
+    width: 100%;
+    margin-top: 4%;
     font-family: sans-serif;
 }
 
 /* Circles in background */
 
+/* .circle-container{
+    background-color: rgb(97, 28, 28);
+    height: 25vh;
+    width: 30%;
+} */
+ 
+.circle-purple{
+    position: absolute;
+    background-color: rgb(141, 4, 168);
+    /* border: 1px solid white; */
+    height: 35vh;
+    width: 17%;
+    border-radius: 50%;
+    box-shadow: 0 0 80px rgba(153, 40, 182, 0.8);
+    left: 32%;
+    top: 1%;
+}
 
+.circle-orange{
+    position: absolute;
+    background-color: rgb(235, 101, 12);
+    /* border: 1px solid white; */
+    height: 32vh;
+    width: 15%;
+    border-radius: 50%;
+    box-shadow: 0 0 80px rgba(233, 134, 88, 0.8);
+    right: 32%;
+    bottom: 0%;
+}
 
+.small-purple{
+    position: absolute;
+    background-color: rgb(141, 4, 168);
+    height: 4vh;
+    width: 2%;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgba(210, 59, 240, 0.8);
+    right: 27%;
+    top: 24%;
+}
 
-
-
-
-
-
+.small-orange{
+    position: absolute;
+    background-color: rgb(235, 101, 12);
+    height: 4vh;
+    width: 2%;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgba(243, 136, 36, 0.8);
+    left: 26%;
+    bottom: 30%;
+}
 
 /* login page  */
 .wrapper {
@@ -32,12 +76,12 @@ body{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 30px;
     /* height: 90vh; */
-    width: 44vh;
+    /* width: 44vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    min-height: 89vh;
+    min-height: 84vh;
     padding: 0 16px;
     backdrop-filter: blur(10px);
 }
@@ -79,14 +123,16 @@ body{
 .box_2 i {
     color: white;
     position: absolute;
-    left: 83%;
+    left: 87%;
+    top: 40.5%;
     padding-top: 8px;
 }
 
 .box_3 i{
     position: absolute;
-    left: 83%;
-    padding-top: 8px;
+    left: 87%;
+    top: 50%;
+    padding-top: 0px;
 }
 
 .box_4{
