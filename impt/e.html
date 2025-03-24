@@ -1,0 +1,55 @@
+<!-- First Name -->
+<div
+  *ngIf="field.FormControlName === 'FirstName' && formRequired.controls[field.FormControlName]"
+  class="form-row"
+  [class.validation-error]="formRequired.controls[field.FormControlName].invalid && formRequired.controls[field.FormControlName].touched"
+  [class.valid-input]="formRequired.controls[field.FormControlName].valid && formRequired.controls[field.FormControlName].touched && formRequired.controls[field.FormControlName].value">
+  
+  <input id="first-name" type="text" formControlName="FirstName"
+    [required]="field.IsRequired"
+    placeholder="Enter First Name">
+</div>
+
+<!-- Last Name -->
+<div
+  *ngIf="field.FormControlName === 'LastName' && formRequired.controls[field.FormControlName]"
+  class="form-row"
+  [class.validation-error]="formRequired.controls[field.FormControlName].invalid && formRequired.controls[field.FormControlName].touched"
+  [class.valid-input]="formRequired.controls[field.FormControlName].valid && formRequired.controls[field.FormControlName].touched && formRequired.controls[field.FormControlName].value">
+  
+  <input id="last-name" type="text" formControlName="LastName"
+    [required]="field.IsRequired"
+    placeholder="Enter Last Name">
+</div>
+
+<!-- Email Address -->
+<div
+  *ngIf="emailOrPhoneMode === 'email'"
+  class="form-row"
+  [class.validation-error]="formRequired.controls['EmailAddress'].invalid && formRequired.controls['EmailAddress'].touched"
+  [class.valid-input]="formRequired.controls['EmailAddress'].valid && formRequired.controls['EmailAddress'].touched && formRequired.controls['EmailAddress'].value">
+  
+  <input id="email" type="text" formControlName="EmailAddress"
+    [required]="true"
+    placeholder="Enter Email Address">
+</div>
+
+<!-- Phone Number -->
+<ngx-intl-tel-input
+  *ngIf="emailOrPhoneMode === 'phone'"
+  class="ngx-intl-tel-input"
+  [class.validation-error]="formRequired.controls['PhoneNumber'].invalid && (formRequired.controls['PhoneNumber'].touched)"
+  [class.valid-input]="formRequired.controls['PhoneNumber'].valid && (formRequired.controls['PhoneNumber'].touched && formRequired.controls['PhoneNumber'].value)"
+  [cssClass]="'custom'"
+  [preferredCountries]=preferredCountries
+  [enableAutoCountrySelect]="false"
+  [enablePlaceholder]="true"
+  placeholder="Enter Phone Number"
+  [searchCountryFlag]="false"
+  [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]"
+  [selectFirstCountry]="false"
+  [selectedCountryISO]=selectedCountry
+  [phoneValidation]="true"
+  [separateDialCode]=separateDialCode
+  formControlName="PhoneNumber">
+</ngx-intl-tel-input>
