@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex; 
+}
+.menu p{
+    color: rgb(13, 95, 218);
+    font-weight: bold;
+    font-family: system-ui;
+    font-size: 24px;
+    line-height: 21px;
+
+}
+
+.menubar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menubar li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
