@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Charm:wght@400;700&family=Delius+Swash+Caps&family=Kalnia:wght@100..700&family=Pacifico&family=Prata&display=swap" rel="stylesheet">
+  </head>
+  <style>
+
+.template-1 {
+      position: relative;
+    width: 70%;
+    height: 97vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.bg {
+  background-image: url('https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630');
+  filter: blur(8px);
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.wrap {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 2rem;
+}
+
+    button {
+        border: none;
+        border-radius: 17px;
+        padding: 10px;
+        width: 29%;
+        background: #974aff;
+        color: white;
+        margin-top: 16%;
+        font-size: 12px;
+        font-family: sans-serif;
+        font-weight: 700;
+    }
+    .title-1 {
+        font-size: 4rem;
+        line-height: 0px;
+        font-family: serif;
+        color: #974aff;
+        font-weight: 100;
+    }
+    .sub-t1 {
+        font-size: 11px;
+        line-height: 5px;
+        color: #444141;
+        font-family: sans-serif;
+    }
+    p.txt1 {
+        font-size: 0.8rem;
+        line-height: 5px;
+        color: #444141;
+        font-family: sans-serif;
+    }
+    .logo {
+        font-size: 2.5rem;
+        font-family: 'Prata', serif;
+        transform: rotate(90deg);
+        color: #974aff;
+        font-weight: 600;
+    }
+    .box {
+        /* border: 1px solid #aba7a7; */
+        width: 27%;
+        margin: auto;
+        height: 3vh;
+        filter: drop-shadow(#aba7a7 0rem 3rem 3px);
+        background: #e6e6e6;
+        border-radius: 56%;
+    }
+
+    /* media queries  */
+    @media (max-width: 1000px) {
+      .template-1{
+        width: 85%;
+        height: 75vh;
+      }
+      button {
+        margin-top: 24%;
+      }
+    }
+
+  </style>
+  <body>
+    
+      <div class="template-1">
+        <div class="bg"></div>
+        <div class="wrap">
+            <div class="logo">s</div>
+            <p class="txt1">SUTE .AI</p>
+            <div class="title-1">
+            <p>Meeting</p>
+            <p>Summary.</p>
+            </div>
+            <div class="sub-t1">
+            <p>add all the meeting</p>
+            <p>notes here</p>
+            </div>
+            <div class="box"></div>
+            <button>Login</button>
+        </div>
+      </div>
+    
+  </body>
+</html>
